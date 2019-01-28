@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+      <!-- <com.example.zxcasdq.mynotes.methods.RoundImage
+            android:id="@+id/sign_image"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/tab4_me" />
+       -->
+        <TextView
+            android:id="@+id/sign_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="未登录"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
