@@ -1,12 +1,17 @@
 package com.example.zxcasdq.mynotes;
 
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTabHost;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.AndroidException;
+import android.view.GestureDetector;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TabHost;
 import android.widget.TextView;
 
@@ -70,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
         fragmentTabHost.setCurrentTab(0);
         final  ImageView imageView=imageViewMap.get("tab3");
-        imageView.setImageResource(R.drawable.fragment_my1);
+        imageView.setImageResource(R.drawable.fragment_find1);
 
 
         fragmentTabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener() {

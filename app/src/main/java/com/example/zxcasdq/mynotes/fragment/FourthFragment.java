@@ -19,7 +19,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.zxcasdq.mynotes.R;
-import com.example.zxcasdq.mynotes.my.MySignActivity;
+
 
 
 public class FourthFragment  extends Fragment {
@@ -29,15 +29,7 @@ public class FourthFragment  extends Fragment {
     public View onCreateView(@NonNull final LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         View view=inflater.inflate(R.layout.tab4,container,false);
-        myName=(TextView)view.findViewById(R.id.sign_text);
-        myName.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent();
-                intent.setClass(getActivity(), MySignActivity.class);
-                startActivityForResult(intent,0); //标记
-            }
-        });
+
         return view;
     }
 

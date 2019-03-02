@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="30sp"
-            android:text="未登录"
+            android:text="我"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="40dp"
             />
